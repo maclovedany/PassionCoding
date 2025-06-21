@@ -197,7 +197,10 @@ const MortgageCalculator = () => {
             </div>
 
             <div className="flex gap-4">
-              <button onClick={calculate} className="btn-primary flex-1">
+              <button
+                onClick={calculate}
+                className="btn-primary flex-1 flex items-center justify-center"
+              >
                 <Calculator className="h-5 w-5 mr-2" />
                 계산하기
               </button>
